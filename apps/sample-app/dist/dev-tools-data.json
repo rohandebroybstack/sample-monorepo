@@ -1,0 +1,34 @@
+{
+  "latest": {
+    "design-stack": "5.0.0",
+    "hooks": "0.3.2",
+    "integrations": "2.6.0",
+    "utils": "3.8.0"
+  },
+  "current": {
+    "design-stack": {
+      "version": "",
+      "filePath": ""
+    },
+    "utils": {
+      "version": "",
+      "filePath": ""
+    },
+    "hooks": {
+      "version": "",
+      "filePath": ""
+    },
+    "integrations": {
+      "version": "",
+      "filePath": ""
+    }
+  },
+  "fontIntegrity": {
+    "value": "",
+    "filePath": "/Users/rohandebroy/bstack/Old-11-08-24/frontend/apps/accessibility-toolkit-headless/index.html"
+  },
+  "packagesBuiltAt": "1723541985",
+  "packageJsonFile": "/Users/rohandebroy/bstack/Old-11-08-24/frontend/apps/accessibility-toolkit-headless/package.json",
+  "isBehindMaster": true,
+  "commitsBehindMaster": 77
+}

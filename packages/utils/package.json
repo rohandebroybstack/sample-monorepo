@@ -1,0 +1,33 @@
+{
+  "name": "utils",
+  "version": "1.1.1",
+  "main": "dist/index.js",
+  "description": "",
+  "peerDependencies": {
+    "@types/chrome": "0.0.254"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-jsdoc": "48.5.0",
+    "vite": "3.2.5",
+    "vite-plugin-dts": "3.9.1",
+    "arrows-svg": "1.8.1",
+    "uuid": "9.0.0",
+    "@types/chrome": "0.0.254"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js"
+  },
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {}
+  }
+}

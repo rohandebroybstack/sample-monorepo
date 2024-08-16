@@ -14,6 +14,7 @@ const bstackProductViteConfig = {
 const extensionViteConfig = {
   plugins: [crx({ manifest })],
   envDir: "env",
+  envPrefix: "BSTACK",
   resolve: {
     alias: {
       "@browserstack/utils": path.resolve(

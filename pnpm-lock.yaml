@@ -8,7 +8,7 @@ importers:
 
   .: {}
 
-  apps/sample-app:
+  apps/accessibility-toolkit-headless:
     dependencies:
       utils:
         specifier: workspace:*

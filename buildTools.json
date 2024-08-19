@@ -1,0 +1,12 @@
+{
+  "accessibility-toolkit-headless": {
+    "baseDir": ".", 
+    "assetDir": "apps/accessibility-toolkit-headless/dist", 
+    "prerequisite": "./scripts/prerequisite.sh",
+    "build": "./scripts/build.sh",
+    "zipContents": true,
+    "zipDir": {
+      "prefix": "[WS]"
+    }
+  }
+}
